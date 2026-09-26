@@ -1,0 +1,77 @@
+Act as a senior Java backend engineer, technical mentor, and hiring interviewer for entry-level SWE-1/SDE-1 roles at mid-tier product companies and fintech organizations.
+
+My goal is to prepare for Java and Spring Boot backend roles paying approximately 12+ LPA at companies such as Juspay, Razorpay, PhonePe, Cisco, Meesho, Swiggy, Zomato, BrowserStack, Paytm, JPMC, Wells Fargo, Goldman Sachs, and similar organizations.
+
+I am new to professional backend development and want to learn through projects rather than disconnected tutorials.
+
+Design a four-level project-based learning roadmap. Give me exactly one project at each level:
+
+1. Level 1: Total beginner project
+2. Level 2: Foundational backend project
+3. Level 3: Intermediate, interview-ready project
+4. Level 4: Impressive, resume-worthy, production-grade project
+
+Important constraints:
+
+- Specialization: Java and Spring Boot backend development
+- Target role: SWE-1/SDE-1, not senior engineer, DevOps engineer, data engineer, or distributed-systems architect
+- Use only technologies that are genuinely necessary for entry-level backend roles
+- Do not add technologies merely because they are popular
+- Do not turn the projects into microservice-heavy, cloud-heavy, or buzzword-heavy systems
+- Prefer a well-designed modular monolith unless microservices solve a specific, clearly demonstrated problem
+- Avoid Kubernetes, service meshes, event streaming, GraphQL, Elasticsearch, multiple databases, CQRS, event sourcing, or complex cloud infrastructure unless absolutely necessary at this level
+- Optimize for depth of understanding rather than number of tools
+- Each project should build naturally on the concepts learned in the previous level
+- The final project must be challenging but realistically implementable by one beginner
+- Avoid generic projects unless you give them a realistic business workflow and non-trivial backend problems
+- Focus on backend engineering, not frontend design. A minimal UI, Swagger UI, Postman collection, or API-only implementation is acceptable
+- Do not include fake scale claims such as "handles millions of users" unless I actually implement and measure something that supports the claim
+
+For each project, provide the following:
+
+1. Project name and one-sentence description
+2. Why it is appropriate for that level
+3. Real-world problem being solved
+4. Core user stories
+5. Functional requirements
+6. Non-functional requirements appropriate for that level
+7. Exact minimum technology stack
+8. Explicit explanation of why each technology is included
+9. Technologies I should deliberately avoid for this project
+10. Java and Spring Boot concepts I will learn
+11. Database concepts I will learn
+12. Security, validation, error handling, logging, and testing requirements
+13. Suggested package/module structure
+14. Database entities and important relationships
+15. Key REST API endpoints
+16. Step-by-step implementation milestones in the correct learning order
+17. Testing strategy, including what should be unit tested and integration tested
+18. Common beginner mistakes
+19. Three meaningful extension features, clearly marked as optional
+20. Deployment approach using the simplest reasonable option
+21. README checklist and documentation expectations
+22. What I should be able to explain in an interview after completing it
+23. Two or three resume bullet points that are honest, measurable, and defensible
+24. Clear completion criteria so I know when to stop instead of endlessly expanding the project
+
+After presenting all four projects, include:
+
+A. A dependency map showing how the four levels build on one another
+B. A consolidated list of the minimum technologies I should learn across the entire roadmap
+C. A separate list called "Technologies you intentionally excluded and why"
+D. The recommended order for learning Java, SQL, Spring Boot, testing, security, Git, Docker, and deployment
+E. A list of backend interview topics that the projects cover
+F. Important interview topics that still require separate study, such as DSA, core Java, SQL, DBMS, operating systems, computer networks, OOP, low-level design, and basic system design
+G. A final reality check explaining whether the Level 4 project is genuinely sufficient to discuss in an SWE-1/SDE-1 interview
+
+Be opinionated. If a feature or technology is unnecessary, exclude it. Do not recommend a large stack just to make the projects look impressive. I want to understand and confidently defend every technology and engineering decision on my resume.
+
+Before finalizing the roadmap, audit it using these questions:
+
+- Can a beginner complete the projects sequentially?
+- Does every technology solve a concrete problem?
+- Does each level introduce only a manageable number of new concepts?
+- Is the Level 4 project impressive because of engineering depth rather than tool count?
+- Can I explain every resume claim using code, tests, documentation, and measurements?
+
+If the answer to any audit question is no, simplify or revise the roadmap before presenting it.

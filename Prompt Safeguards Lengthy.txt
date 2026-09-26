@@ -1,0 +1,226 @@
+Act as a senior Java backend engineer, SDE1 interviewer, and project-based learning mentor who understands the engineering standards generally expected in 12+ LPA entry-level software roles at product-based companies and fintech organizations.
+
+My target is an SDE1/SWE1 backend role with Java and Spring Boot specialization. Companies I am interested in include Juspay, Razorpay, PhonePe, Cisco, Meesho, Swiggy, Zomato, BrowserStack, Paytm, JPMorgan Chase, Wells Fargo, Goldman Sachs, and similar product and fintech companies.
+
+I am currently a beginner. I want to learn Java backend development by building projects rather than studying technologies in isolation.
+
+Create a progressive roadmap containing exactly four projects:
+
+- Level 1: Total beginner project
+- Level 2: Foundational Java and Spring Boot project
+- Level 3: Job-ready SDE1/SWE1 backend project
+- Level 4: Impressive, résumé-worthy, production-grade backend project suitable for meaningful discussion in interviews
+
+The projects should progressively prepare me for entry-level backend interviews and real development work. Do not assume that projects alone guarantee a particular salary or job. Instead, design them to help me demonstrate the backend engineering skills commonly assessed for strong SDE1/SWE1 roles.
+
+## Primary objective
+
+Optimize the roadmap for:
+
+- Strong Java fundamentals
+- Practical Spring Boot knowledge
+- Backend engineering depth
+- Database and SQL proficiency
+- REST API design
+- Testing and debugging ability
+- Security fundamentals
+- Code quality and maintainability
+- Sound engineering decisions
+- Interview readiness
+- Honest and defensible résumé content
+
+Do not optimize for the maximum number of tools, frameworks, or buzzwords.
+
+## Strict anti-overengineering rules
+
+Follow these constraints carefully:
+
+1. Include only technologies that are genuinely necessary or highly valuable for an SDE1/SWE1 Java backend role.
+2. Every included technology must solve a specific project requirement.
+3. Explain why each technology is included and what problem it solves.
+4. Prefer mastering a small, focused stack over gaining shallow exposure to many tools.
+5. Use a well-structured modular monolith by default.
+6. Do not introduce microservices unless there is a compelling requirement that cannot be handled reasonably by a modular monolith.
+7. Do not add Kafka, Kubernetes, Redis, Elasticsearch, NoSQL, GraphQL, gRPC, service meshes, multiple databases, or multiple cloud services merely to make the project appear advanced.
+8. If one of these technologies could be useful but is not necessary, place it under an optional “Learn Later” section.
+9. Do not turn the Level 4 project into an enterprise-scale distributed system.
+10. Do not create an enormous feature list that a beginner cannot complete or explain properly.
+11. Do not add a frontend framework unless a minimal frontend is genuinely necessary. The main focus must remain backend engineering.
+12. Prefer relational database design unless the project has a clear and justified need for another database type.
+13. Do not include a technology just because the named companies use it. Include it only if it teaches a transferable entry-level engineering skill.
+14. Do not use artificial performance claims such as “supports millions of users” unless the project actually includes reproducible testing and evidence.
+15. Clearly distinguish between:
+    - Essential for the project
+    - Useful but optional
+    - Premature or unnecessary for an SDE1 learner
+
+## Expected progression
+
+Design the four levels so that the progression approximately covers:
+
+### Level 1
+
+- Core Java
+- Object-oriented programming
+- Collections
+- Exceptions
+- Basic clean-code practices
+- Basic input validation
+- Simple unit testing
+
+### Level 2
+
+- Spring Boot fundamentals
+- Dependency injection
+- Layered architecture
+- REST APIs
+- HTTP fundamentals
+- Basic relational database modeling
+- SQL
+- Spring Data JPA
+- Validation
+- Global exception handling
+- Unit and basic integration testing
+
+### Level 3
+
+- Authentication and authorization
+- Transactions
+- More thoughtful database design
+- Pagination, filtering, and sorting
+- API contracts
+- Testable service-layer design
+- Integration testing
+- Logging
+- Configuration management
+- API documentation
+- Docker only if it meaningfully improves reproducibility
+
+### Level 4
+
+- Production-quality modular design
+- Realistic business rules
+- Transaction consistency
+- Concurrency considerations
+- Idempotency where genuinely applicable
+- Secure authentication and authorization
+- Schema migrations
+- Audit-friendly data modeling
+- Reliable exception handling
+- Unit and integration testing
+- Meaningful operational logging
+- Basic health and observability features
+- Externalized configuration
+- API documentation
+- Reproducible local setup
+- Practical deployment
+- Clear engineering trade-offs
+
+Treat this as guidance, not as a requirement to force every listed concept into a project.
+
+## Required output for each project
+
+For each of the four levels, provide the following:
+
+1. Project name
+2. One-sentence elevator pitch
+3. The real-world problem it solves
+4. Why it is appropriate for that level
+5. Prerequisite knowledge
+6. Concepts I will learn
+7. Minimum required technology stack
+8. A clear justification for every technology
+9. Core functional requirements
+10. Appropriate non-functional requirements
+11. Features that must be included
+12. Features that should deliberately be excluded
+13. Main entities and database relationships
+14. Important database constraints and indexes
+15. Main REST API endpoints
+16. Important business rules
+17. Input-validation requirements
+18. Exception-handling strategy
+19. Authentication and authorization requirements
+20. Transaction-management requirements
+21. Concurrency or idempotency requirements, only if applicable
+22. Testing strategy, including what should be unit tested and integration tested
+23. Logging and operational visibility appropriate to that level
+24. Suggested package and module structure
+25. Step-by-step implementation milestones
+26. Definition of done
+27. Clear stopping rules so I do not continue adding unnecessary features
+28. Common beginner mistakes
+29. Important engineering trade-offs I should understand
+30. What I should be able to explain in an interview
+31. Five project-specific interview questions
+32. Two or three honest, ATS-friendly résumé bullet points
+33. Two optional extensions that I should attempt only after completing the core project
+
+## Level 4 requirements
+
+The Level 4 project should be the centerpiece of my résumé. It must be impressive because of engineering quality and depth, not because of excessive architecture.
+
+Make it production-grade at an SDE1-appropriate level by emphasizing:
+
+- Clear domain modeling
+- Non-trivial but manageable business rules
+- Correct database transactions
+- Data integrity
+- Concurrency awareness
+- Idempotent operations where appropriate
+- Secure API design
+- Role-based access control where appropriate
+- Database migration management
+- Strong validation
+- Predictable error responses
+- Unit and integration tests
+- Maintainable modular structure
+- Useful logs without exposing sensitive information
+- Environment-based configuration
+- Health checks
+- API documentation
+- Docker-based local setup only if justified
+- A straightforward deployment process
+- A professional README
+- Architecture and database diagrams
+- Documented engineering decisions and trade-offs
+
+Do not confuse “production-grade” with “massively distributed,” “internet-scale,” or “full enterprise architecture.”
+
+## Final analysis after the four projects
+
+After presenting the projects, provide:
+
+1. A skill-progression map showing what each level adds
+2. The exact order in which I should learn the required concepts
+3. One consolidated list of essential technologies across all four projects
+4. Technologies intentionally excluded or postponed
+5. The reason each excluded technology is unnecessary at this stage
+6. A distinction between project skills and separate interview-preparation areas
+7. Java topics I must study outside the projects
+8. Spring Boot topics I must understand deeply
+9. SQL and database topics I must practice separately
+10. Testing and debugging skills expected from a strong SDE1 candidate
+11. Computer science subjects I must study alongside the projects, including DSA, OOP, DBMS, operating systems, computer networks, and basic system design
+12. A “depth over breadth” checklist for evaluating my understanding
+13. A checklist for detecting whether my résumé has become a buzzword park
+14. A readiness checklist for applying to SDE1/SWE1 positions
+15. A GitHub presentation checklist for each repository
+16. A comparison explaining why the Level 4 project is stronger than a basic CRUD application
+17. A list of project decisions interviewers may challenge and how I should justify them
+18. A realistic explanation of what these projects can and cannot demonstrate during hiring
+
+## Response-quality requirements
+
+- Be opinionated and practical.
+- Do not provide four variations of the same CRUD application.
+- Do not select projects solely because they are common tutorial projects.
+- Ensure that every project introduces a meaningful new engineering challenge.
+- Avoid vague advice such as “add scalability” or “make it secure.” Define concrete, implementable requirements.
+- Keep the core scope achievable for one learner.
+- Clearly mark optional features.
+- Prefer depth, correctness, testing, and maintainability over feature count.
+- Do not claim that completing these projects guarantees a 12+ LPA offer.
+- Do not recommend technologies based solely on company names.
+- When company-specific expectations cannot be verified, state that clearly rather than inventing them.
+- Make the roadmap suitable for someone starting from the beginning but targeting a strong SDE1/SWE1 standard.
